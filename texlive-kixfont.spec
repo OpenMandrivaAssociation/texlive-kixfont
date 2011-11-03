@@ -1,3 +1,9 @@
+# revision 18488
+# category Package
+# catalog-ctan /fonts/kixfont
+# catalog-date 2007-10-05 20:57:01 +0200
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-kixfont
 Version:	20071005
 Release:	1
@@ -44,6 +50,7 @@ upper-case letters.
 %doc %{_texmfdistdir}/doc/fonts/kixfont/kix.mf.asc
 %doc %{_texmfdistdir}/doc/fonts/kixfont/kixtable.pdf
 %doc %{_texmfdistdir}/doc/fonts/kixfont/kixtable.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ upper-case letters.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
