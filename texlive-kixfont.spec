@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-kixfont
 Version:	20071005
-Release:	8
+Release:	9
 Summary:	A font for KIX codes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/kixfont
