@@ -1,9 +1,3 @@
-# revision 18488
-# category Package
-# catalog-ctan /fonts/kixfont
-# catalog-date 2007-10-05 20:57:01 +0200
-# catalog-license other-free
-# catalog-version undef
 Name:		texlive-kixfont
 Version:	20170414
 Release:	1
@@ -36,11 +30,9 @@ upper-case letters.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/source/public/kixfont/kix.mf
-%{_texmfdistdir}/fonts/tfm/public/kixfont/kix.tfm
-%doc %{_texmfdistdir}/doc/fonts/kixfont/kix.mf.asc
-%doc %{_texmfdistdir}/doc/fonts/kixfont/kixtable.pdf
-%doc %{_texmfdistdir}/doc/fonts/kixfont/kixtable.tex
+%{_texmfdistdir}/fonts/source/public/kixfont
+%{_texmfdistdir}/fonts/tfm/public/kixfont
+%doc %{_texmfdistdir}/doc/fonts/kixfont
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,17 +43,3 @@ upper-case letters.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20071005-2
-+ Revision: 752987
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20071005-1
-+ Revision: 718776
-- texlive-kixfont
-- texlive-kixfont
-- texlive-kixfont
-- texlive-kixfont
-
