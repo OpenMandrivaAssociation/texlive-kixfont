@@ -1,5 +1,5 @@
 Name:		texlive-kixfont
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	A font for KIX codes
 Group:		Publishing
