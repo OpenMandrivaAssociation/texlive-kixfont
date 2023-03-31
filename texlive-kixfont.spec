@@ -1,6 +1,6 @@
 Name:		texlive-kixfont
 Version:	18488
-Release:	1
+Release:	2
 Summary:	A font for KIX codes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/kixfont
