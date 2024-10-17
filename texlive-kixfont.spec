@@ -3,7 +3,7 @@ Version:	18488
 Release:	2
 Summary:	A font for KIX codes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/kixfont
+URL:		https://www.ctan.org/tex-archive/fonts/kixfont
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/kixfont.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/kixfont.doc.r%{version}.tar.xz
